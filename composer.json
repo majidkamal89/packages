@@ -1,0 +1,32 @@
+{
+    "name": "shine/productadmin",
+    "type": "library",
+    "description": "Simple products admin",
+    "keywords": [
+        "admin"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Shine vbase"
+        }
+    ],
+    "require": {
+        "illuminate/support": "~5.1",
+        "php" : "~5.6|~7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit" : ">=5.4.3",
+        "squizlabs/php_codesniffer": "^2.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "shine\\productadmin\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "shine\\productadmin\\": "tests"
+        }
+    }
+}
